@@ -8,15 +8,17 @@ const buttonInc = document.querySelector(".btn-inc");
 let number = 0;
 
 buttonReset.addEventListener("click", () => {
-    displayDiv.textContent = "";
-})
+  displayDiv.textContent = "";
+  number = 0;
+});
 
 buttonDec.addEventListener("click", () => {
-    number -= 1;
-    displayDiv.textContent = number;
-})
+  number -= 1;
+  displayDiv.textContent = number;
+  document.buttonDec.style.color = "red";
+});
 
 buttonInc.addEventListener("click", () => {
-    number += 1;
-    displayDiv.textContent = number;
-})
+  number += 1;
+  displayDiv.textContent = number;
+});
