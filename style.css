@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:26px;
+    /* 'background-color: lightgray ;' */
+
+}
+
+.container{
+    background-color:lightgray;
+    width:400px;
+    height: 200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.display{
+    color:green;
+    width: 90px;
+    height: 30px;
+    font-size: 26px
+    
+}
+
+.btn{
+    border-radius:16px;
+    cursor: pointer;
+    color:black;
+    background-color:blueviolet;
+}
